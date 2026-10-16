@@ -1,0 +1,78 @@
+{
+  "deny_message": {
+    "description": "无权限时的提示语",
+    "type": "string",
+    "default": "这个功能没你份"
+  },
+  "draw_enabled": {
+    "description": "【画图】总开关（关掉则除管理员外不可用；管理员始终放行）",
+    "type": "bool",
+    "default": true
+  },
+  "draw_allow": {
+    "description": "【画图】额外放行名单（管理员无需填写）",
+    "hint": "填 sender_id，一行一个：QQ 号 或 微信 openid",
+    "type": "list",
+    "default": []
+  },
+  "edit_enabled": {
+    "description": "【改图】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "edit_allow": {
+    "description": "【改图】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  },
+  "selfie_enabled": {
+    "description": "【自拍】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "selfie_allow": {
+    "description": "【自拍】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  },
+  "video_enabled": {
+    "description": "【视频】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "video_allow": {
+    "description": "【视频】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  },
+  "batch_enabled": {
+    "description": "【批量生图】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "batch_allow": {
+    "description": "【批量生图】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  },
+  "task_enabled": {
+    "description": "【任务查询】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "task_allow": {
+    "description": "【任务查询】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  },
+  "characters_enabled": {
+    "description": "【人物/形象】总开关（关掉则除管理员外不可用）",
+    "type": "bool",
+    "default": true
+  },
+  "characters_allow": {
+    "description": "【人物/形象】额外放行名单（管理员无需填写）",
+    "type": "list",
+    "default": []
+  }
+}

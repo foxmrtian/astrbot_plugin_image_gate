@@ -1,0 +1,10 @@
+name: astrbot_plugin_image_gate
+display_name: 图片功能守门
+desc: Gitee AI Image 各功能独立开关 + 独立放行名单；管理员始终放行，其他人逐项放行。插件由冬瓜与丹宝合作完成。
+version: v1.2.0
+author: 冬瓜 & 丹宝
+astrbot_version: ">=4.26.8,<5"
+support_platforms:
+  - aiocqhttp
+  - weixin_oc
+repo: https://github.com/foxmrtian/astrbot_plugin_image_gate
